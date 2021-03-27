@@ -1,22 +1,10 @@
 {
-  "name": "package.json",
-  "version": "1.0.0",
-  "description": "metadata for project",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "keywords": [
-    "express"
-  ],
-  "author": "Ren Gernes",
+  "name": "host-files",
+  "description": "Hosts HTML files with Node.JS.",
+  "version": "0.0.1",
+  "private": true,
   "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RenM28/html-file-tutorial"
+  "author": "Ren Gernes",
+  "scripts": {
+      "start": "node index.js"
   }
-}
